@@ -15,7 +15,6 @@ include = [
 	"LICENSE-*",
 	"README.md",
 ]
-publish = false
 
 [dev-dependencies]
 cargo-husky = "1.5.0"
