@@ -1,5 +1,14 @@
 # fn-formats Changelog
 
+## 0.0.4
+
+* Added README badges and CI
+
+Fixed:
+
+* Keywords in Cargo.toml
+* "CHANGLOG.md" link in [README.md](README.md)'s Versioning section
+
 ## 0.0.3
 
 2020-09-01

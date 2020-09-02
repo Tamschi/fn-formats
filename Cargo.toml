@@ -1,16 +1,17 @@
 [package]
 name = "fn-formats"
-version = "0.0.3"
+version = "0.0.4"
 authors = ["Tamme Schichler <tamme@schichler.dev>"]
 edition = "2018"
 description = "Format trait wrappers for Fn(&mut Formatter) -> fmt::Result"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Tamschi/fn-formats"
-tags = ["fluent", "Debug", "Display", "format", "no_std"]
+keywords = ["fluent", "Debug", "Display", "format", "no_std"]
 categories = ["value-formatting", "development-tools::debugging"]
 readme = "README.md"
 include = [
 	"**/*.rs",
+	".travis.yml",
 	"Cargo.toml",
 	"LICENSE-*",
 	"CHANGELOG.md",
@@ -20,4 +21,5 @@ include = [
 [dev-dependencies]
 cargo-husky = "1.5.0"
 doc-comment = "0.3.3"
+git_info = "0.1.2"
 version-sync = "0.9.1"
