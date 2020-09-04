@@ -111,11 +111,8 @@ fn pulls() {
 	);
 }
 
-
-
-
 #[test]
-fn crev(                   ) {
+fn crev() {
 	version_sync::assert_contains_regex!(
 		"README.md",
 		r"^\[!\[crev reviews\]\(https://web.crev.dev/rust-reviews/badge/crev_count/{name}.svg\)\]\(https://web\.crev\.dev/rust-reviews/crate/{name}/\)$"
