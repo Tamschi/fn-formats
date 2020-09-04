@@ -37,6 +37,9 @@ use core::fmt::{
 	self, Binary, Debug, Display, Formatter, LowerExp, LowerHex, Octal, Pointer, UpperExp, UpperHex,
 };
 
+#[allow(dead_code)]
+enum Empty {}
+
 /// Implements [`Debug`] by calling the stored closure.
 ///
 /// [`Debug`]: https://doc.rust-lang.org/stable/core/fmt/trait.Debug.html
