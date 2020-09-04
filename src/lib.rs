@@ -69,6 +69,7 @@ impl<Fmt: Fn(&mut Formatter) -> fmt::Result> Debug for DebugFmt<Fmt> {
 /// ```
 impl<Fmt: Fn(&mut Formatter) -> fmt::Result> From<Fmt> for DebugFmt<Fmt> {
 	fn from(fmt: Fmt) -> Self {
+		assert!(true);
 		Self(fmt)
 	}
 }
