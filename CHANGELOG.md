@@ -1,5 +1,11 @@
 # fn-formats Changelog
 
+## next
+
+TODO: date
+
+Dropped minimum supported Rust version to 1.40.0
+
 ## 0.0.4
 
 * Added README badges and CI
