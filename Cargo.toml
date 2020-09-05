@@ -1,22 +1,31 @@
 [package]
 name = "fn-formats"
-version = "0.0.4"
+version = "0.0.5"
 authors = ["Tamme Schichler <tamme@schichler.dev>"]
 edition = "2018"
 description = "Format trait wrappers for Fn(&mut Formatter) -> fmt::Result"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Tamschi/fn-formats"
+homepage = "https://github.com/Tamschi/fn-formats/tree/v0.0.5"
+documentation = "https://docs.rs/fn-formats/0.0.5"
 keywords = ["fluent", "Debug", "Display", "format", "no_std"]
-categories = ["value-formatting", "development-tools::debugging"]
+categories = ["value-formatting", "development-tools::debugging", "no-std"]
 readme = "README.md"
 include = [
 	"**/*.rs",
-	".travis.yml",
+	"!tests/meta_*.rs", # Tests of meta data files not included in the package.
 	"Cargo.toml",
-	"LICENSE-*",
 	"CHANGELOG.md",
+	"CODE_OF_CONDUCT.md",
+	"LICENSE-*",
 	"README.md",
 ]
+
+[badges]
+travis-ci = { repository = "Tamschi/fn-formats", branch = "unstable" }
+is-it-maintained-issue-resolution = { repository = "Tamschi/fn-formats" }
+is-it-maintained-open-issues = { repository = "Tamschi/fn-formats" }
+maintenance = { status = "experimental" }
 
 [dev-dependencies]
 cargo-husky = "1.5.0"

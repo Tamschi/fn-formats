@@ -2,11 +2,11 @@
 
 [![Lib.rs](https://img.shields.io/badge/Lib.rs-*-84f)](https://lib.rs/crates/fn-formats)
 [![Crates.io](https://img.shields.io/crates/v/fn-formats)](https://crates.io/crates/fn-formats)
-[![Docs.rs](https://img.shields.io/badge/Docs.rs-*-black)](https://docs.rs/crates/fn-formats)
+[![Docs.rs](https://docs.rs/fn-formats/badge.svg)](https://docs.rs/crates/fn-formats)
 
-![Rust 1.46.0](https://img.shields.io/static/v1?logo=Rust&label=&message=1.46.0&color=grey)
+![Rust 1.40.0](https://img.shields.io/static/v1?logo=Rust&label=&message=1.40.0&color=grey)
 [![Build Status](https://travis-ci.com/Tamschi/fn-formats.svg?branch=unstable)](https://travis-ci.com/Tamschi/fn-formats/branches)
-![Crates.io - License](https://img.shields.io/crates/l/fn-formats/0.0.4)
+![Crates.io - License](https://img.shields.io/crates/l/fn-formats/0.0.5)
 
 [![GitHub](https://img.shields.io/static/v1?logo=GitHub&label=&message=%20&color=grey)](https://github.com/Tamschi/fn-formats)
 [![open issues](https://img.shields.io/github/issues-raw/Tamschi/fn-formats)](https://github.com/Tamschi/fn-formats/issues)
@@ -57,6 +57,8 @@ Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
 dual licensed as above, without any additional terms or conditions.
 
+## [Code of Conduct](CODE_OF_CONDUCT.md)
+
 ## [Changelog](CHANGELOG.md)
 
 ## Versioning
@@ -69,6 +71,6 @@ Consider it the global feature level.
 Consider it the global patch level.
 
 This includes the Rust version requirement specified above.  
-Earlier versions may be compatible, but this can change with minor or patch releases.
+Earlier Rust versions may be compatible, but this can change with minor or patch releases.
 
 Which versions are affected by features and patches can be determined from the respective headings in [CHANGELOG.md](CHANGELOG.md).

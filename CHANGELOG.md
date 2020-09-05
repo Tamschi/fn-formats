@@ -1,5 +1,13 @@
 # fn-formats Changelog
 
+## 0.0.5
+
+2020-09-05
+
+* Dropped minimum supported Rust version to 1.40.0
+* Use official Docs.rs badge
+* Added more meta data
+
 ## 0.0.4
 
 * Added README badges and CI

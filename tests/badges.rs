@@ -1,16 +1,21 @@
-const BRANCH: &str = "unstable";
-const USER: &str = "Tamschi";
-const RUST_VERSION: &str = "1.46.0";
+#[path = "constants_.rs"]
+mod constants;
+use constants::*;
 
 #[test]
 fn weak_assert_branch() {
 	let info = git_info::get();
 
 	if let Some(branch) = info.current_branch {
-		if !branch.contains("HEAD detached") {
-			assert_eq!(BRANCH, branch);
-		} else {
+		if branch.contains("HEAD detached") {
 			eprintln!("Branch assert ignored: HEAD detached")
+		} else if branch == "(no branch)" {
+			// Most likely a release tag.
+			eprintln!(r#"Branch assert ignored: "(no branch)""#)
+		} else if branch.contains('-') {
+			eprintln!("Branch assert ignored: Probably a feature branch")
+		} else {
+			assert_eq!(BRANCH, branch);
 		}
 	} else {
 		eprintln!("Branch assert ignored: No branch information available")
@@ -37,14 +42,12 @@ fn crates() {
 fn docs() {
 	version_sync::assert_contains_regex!(
 		"README.md",
-		r"^\[!\[Docs\.rs\]\(https://img\.shields\.io/badge/Docs\.rs-\*-black\)\]\(https://docs\.rs/crates/{name}\)$"
+		r"^\[!\[Docs\.rs\]\(https://docs\.rs/{name}/badge\.svg\)\]\(https://docs\.rs/crates/{name}\)$"
 	);
 }
 
 #[test]
 fn rust_version() {
-	version_sync::assert_contains_regex!(".travis.yml", &format!(r"^    - {}$", RUST_VERSION));
-
 	version_sync::assert_contains_regex!(
 		"README.md",
 		&format!(
