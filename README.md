@@ -2,7 +2,7 @@
 
 [![Lib.rs](https://img.shields.io/badge/Lib.rs-*-84f)](https://lib.rs/crates/fn-formats)
 [![Crates.io](https://img.shields.io/crates/v/fn-formats)](https://crates.io/crates/fn-formats)
-[![Docs.rs](https://img.shields.io/badge/Docs.rs-*-black)](https://docs.rs/crates/fn-formats)
+[![Docs.rs](https://docs.rs/fn-formats/badge.svg)](https://docs.rs/crates/fn-formats)
 
 ![Rust 1.40.0](https://img.shields.io/static/v1?logo=Rust&label=&message=1.40.0&color=grey)
 [![Build Status](https://travis-ci.com/Tamschi/fn-formats.svg?branch=develop)](https://travis-ci.com/Tamschi/fn-formats/branches)
