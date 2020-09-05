@@ -7,7 +7,7 @@ description = "Format trait wrappers for Fn(&mut Formatter) -> fmt::Result"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Tamschi/fn-formats"
 keywords = ["fluent", "Debug", "Display", "format", "no_std"]
-categories = ["value-formatting", "development-tools::debugging"]
+categories = ["value-formatting", "development-tools::debugging", "no-std"]
 readme = "README.md"
 include = [
 	"**/*.rs",
