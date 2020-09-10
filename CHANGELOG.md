@@ -1,5 +1,9 @@
 # fn-formats Changelog
 
+## next
+
+* Test now ensures html_root_url is present
+
 ## 0.0.5
 
 2020-09-05
