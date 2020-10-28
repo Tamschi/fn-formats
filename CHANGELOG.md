@@ -3,6 +3,7 @@
 ## next
 
 * Test now ensures html_root_url is present
+* Updated meta data to match my current rust-template (as of 2020-10-28)
 
 ## 0.0.5
 
