@@ -23,7 +23,6 @@ include = [
 publish = false
 
 [badges]
-travis-ci = { repository = "Tamschi/fn-formats", branch = "develop" }
 is-it-maintained-issue-resolution = { repository = "Tamschi/fn-formats" }
 is-it-maintained-open-issues = { repository = "Tamschi/fn-formats" }
 maintenance = { status = "experimental" }

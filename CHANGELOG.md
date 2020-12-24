@@ -1,5 +1,7 @@
 # fn-formats Changelog
 
+<!-- markdownlint-disable no-trailing-punctuation -->
+
 ## next
 
 * Test now ensures html_root_url is present

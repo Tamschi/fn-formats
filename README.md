@@ -5,7 +5,7 @@
 [![Docs.rs](https://docs.rs/fn-formats/badge.svg)](https://docs.rs/crates/fn-formats)
 
 ![Rust 1.40.0](https://img.shields.io/static/v1?logo=Rust&label=&message=1.40.0&color=grey)
-[![Build Status](https://travis-ci.com/Tamschi/fn-formats.svg?branch=develop)](https://travis-ci.com/Tamschi/fn-formats/branches)
+[![CI](https://github.com/Tamschi/fn-formats/workflows/CI/badge.svg?branch=develop)](https://github.com/Tamschi/fn-formats/actions?query=workflow%3ACI+branch%3Adevelop)
 ![Crates.io - License](https://img.shields.io/crates/l/fn-formats/0.0.5)
 
 [![GitHub](https://img.shields.io/static/v1?logo=GitHub&label=&message=%20&color=grey)](https://github.com/Tamschi/fn-formats)
